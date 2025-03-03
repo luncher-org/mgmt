@@ -268,4 +268,4 @@ jobs:
           gh repo sync https://github.com/luncher-org/wrangler-cli ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/yip
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.LUNCHER_TOKEN }}

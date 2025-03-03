@@ -156,7 +156,6 @@ jobs:
           gh repo sync https://github.com/luncher-org/mapps-e2e ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/metrics-server ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/migration-agent ; sleep 30 ;
-          gh repo sync https://github.com/luncher-org/mirrored-prometheus-operator-admission-webhook ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/multus-cni ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/neuvector-product-docs ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/nfs-ganesha ; sleep 30 ;

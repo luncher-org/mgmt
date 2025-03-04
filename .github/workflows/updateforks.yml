@@ -215,7 +215,6 @@ jobs:
           gh repo sync https://github.com/luncher-org/security-scan ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/shell ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/shepherd ; sleep 30 ;
-          gh repo sync https://github.com/luncher-org/spdk ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/stackstate-product-docs ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/steve ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/storybook ; sleep 30 ;
@@ -229,12 +228,10 @@ jobs:
           gh repo sync https://github.com/luncher-org/systemd-node ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/terraform-aws-access ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/terraform-aws-rke2 ; sleep 30 ;
-          gh repo sync https://github.com/luncher-org/terraform-aws-rke2-clusters ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/terraform-aws-rke2-live-example ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/terraform-aws-server ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/terraform-github-rke2-download ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/terraform-local-rke2-config ; sleep 30 ;
-          gh repo sync https://github.com/luncher-org/terraform-local-rke2-hardening ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/terraform-null-rke2-install ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/terraform-provider-rancher2 ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/terraform-provider-rke ; sleep 30 ;

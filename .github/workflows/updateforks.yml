@@ -140,6 +140,11 @@ jobs:
           gh repo sync https://github.com/luncher-org/klipper-helm --force ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/klipper-lb --force ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/kontainer-driver-metadata --force ; sleep 30 ;
+          gh repo sync https://github.com/luncher-org/kontainer-driver-metadata --branch dev-v2.11 --force ; sleep 30 ;
+          gh repo sync https://github.com/luncher-org/kontainer-driver-metadata --branch release-v2.10 --force ; sleep 30 ;
+          gh repo sync https://github.com/luncher-org/kontainer-driver-metadata --branch release-v2.9 --force ; sleep 30 ;
+          gh repo sync https://github.com/luncher-org/kontainer-driver-metadata --branch dev-v2.10 --force ; sleep 30 ;
+          gh repo sync https://github.com/luncher-org/kontainer-driver-metadata --branch dev-v2.9 --force ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/kube-api-auth --force ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/kube-vip --force ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/kubectl --force ; sleep 30 ;

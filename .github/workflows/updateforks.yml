@@ -103,6 +103,8 @@ jobs:
           gh repo sync https://github.com/luncher-org/hubble-ui --force ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/hull --force ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/hyperkube --force ; sleep 30 ;
+          gh repo sync https://github.com/luncher-org/hyperkube --force --branch v1.31 ; sleep 30 ;
+          gh repo sync https://github.com/luncher-org/hyperkube --force --branch v1.32 ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/hyperkube-base --force ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/icons --force ; sleep 30 ;
           gh repo sync https://github.com/luncher-org/image-build-addon-resizer --force ; sleep 30 ;
